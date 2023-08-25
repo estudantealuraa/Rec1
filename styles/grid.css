@@ -10,16 +10,23 @@
     position: inherit;
 }
 .titulo{
-    font-size: 10px;
-    color: rgb(146, 83, 204);
+    font-size: 30px;
+    color: rgb(1, 96, 219);
     margin-bottom: 7px;
     text-align: center;
 }
 @media screen and (min-width: 825px) {
     .Imagem{
-    border: 3px solid rgb(128, 0, 38);
-    width: 100px!important;
-    height: 80px!important;
+    border: 6px solid rgb(128, 0, 38);
+    width: 200px!important;
+    height: 180px!important;
     }
    
+}
+.cerebro{
+    position:absolute;
+    width: 1400px;
+    height: 400px;
+    left: 230px;
+    top: 950px;
 }

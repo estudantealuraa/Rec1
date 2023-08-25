@@ -57,13 +57,14 @@
 }
 .titulo__cabecalho{
     display: none;
-    color:rgb(36, 95, 173);
+    color:rgb(4, 83, 59);
+    font-style: inherit;
 }
 @media screen and (min-width: 825px){
     .titulo__cabecalho{
         font-size: 30px;
         font-family: var(--font-secunscreendaria);
-        color: green (43, 226, 101);
+        color: rgb(114, 0, 0) rgb(128, 9, 0) (43, 226, 101);
         display: block;
     }
     
