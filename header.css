@@ -61,3 +61,28 @@
     }
     
 }
+.opcoes{
+    display:flex;
+}
+.opcoes{
+    padding: 0 1em;
+}
+.opcoes_link{
+    text-decoration: none;
+    color: var(--preto);
+}
+.container_imagem--transparente{
+    display: none;
+}
+.cabecalho__menu-hamburguer{
+    display:none;
+}
+.opcoes_botao:checked~.lista-menu{
+    display:block;
+}
+.opcoes_botao{
+    display: none;
+}
+.opcoes_item{
+    padding: 1mm;
+}
