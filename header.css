@@ -57,7 +57,10 @@
 }
 @media screen and (min-width: 825px;){
     .titulo__cabecalho{
-        font-size: 18px;
+        font-size: 30px;
+        font-family: var(--font-secundaria);
+        color: rgb(107, 5, 5);
+        display: block;
     }
     
 }
@@ -66,6 +69,7 @@
 }
 .opcoes{
     padding: 0 1em;
+    list-style: none;
 }
 .opcoes_link{
     text-decoration: none;
@@ -83,6 +87,4 @@
 .opcoes_botao{
     display: none;
 }
-.opcoes_item{
-    padding: 1mm;
-}
+
